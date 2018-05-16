@@ -39,16 +39,16 @@ function done(){
     $('#snapshots').html("uploaded");
 }
 </script>
+
 Now when we receive the success message, we will show it in a table.
-            <table class="table table-bordered">
-            <thead>
-                <tr>
-                    <th>Image</th><th>Image Name</th>
-                </tr>
-            </thead>
-            <tbody id="imagelist">
-            
-            </tbody>
-        </table>
+  <table class="table table-bordered">
+      <thead>
+          <tr>
+            <th>Image</th><th>Image Name</th>
+          </tr>
+      </thead>
+      <tbody id="imagelist">    
+      </tbody>
+   </table>
         
-     You can also use getUserMedia in index2.php and index3.php
+ You can also use getUserMedia in index2.php and index3.php
